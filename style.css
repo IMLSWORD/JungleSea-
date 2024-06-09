@@ -452,6 +452,21 @@ body {
   padding: 20px;
 }
 
+
+/* seccion videos */
+
+.seccion-videos{
+  width: 1440px;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.seccion-videos video{
+  width: 1440px;
+}
+
 /* footer */
 
 
