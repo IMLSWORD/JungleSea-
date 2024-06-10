@@ -482,6 +482,7 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   align-content: center;
+  overflow: hidden;
 }
 
 .titulo-servicios {
@@ -600,6 +601,10 @@ body {
 
   .section-nav {
     width: 100vw;
+  }
+
+  .nav-icon-page{
+    display: none;
   }
 
  
