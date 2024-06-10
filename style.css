@@ -164,6 +164,76 @@ body {
   scale: 120%;
 }
 
+/* planes  */
+
+.planes-seccion{
+  width: 100%;
+  height: auto;
+  display: block;
+  align-content: center;
+}
+
+.planes-contenedor{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.elemento-planes{
+  width: 400px;
+  text-align: center;
+  height: auto;
+  color: #000000;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 40px;
+  border: 3px solid var(--dark-green);
+  cursor: pointer;
+}
+
+.elemento-planes:hover{
+  scale: 105%;
+}
+
+.elemento-planes h1{
+  font-size: 50px;
+  font-weight: 800;
+  overflow: hidden;
+  color: var(--opact-green);
+}
+
+.elemento-planes p{
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.seccion-compra{
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.elemento-planes img{
+  width: 100px;
+  padding: 40px;
+}
+
+.seccion-compra button{
+  width: 100px;
+  height: 50px;
+  background-color: var(--dark-green);
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
 /* informacion */
 
 .section-informacion {
@@ -459,6 +529,27 @@ body {
 
 .seccion-videos video {
   width: 1440px;
+}
+
+/* whatsapp */
+.wwhatsapp-icon-conteiner{
+  position: fixed;
+  
+
+}
+
+.contenedor-whatsapp{
+  width: 50px;
+  position: fixed;
+  top: 1;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  padding: 10px;
+}
+
+.contenedor-whatsapp img {
+  width: 50px;
 }
 
 /* footer */
