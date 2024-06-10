@@ -259,12 +259,14 @@ body {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  overflow: hidden;
   color: var(--dark-green);
   padding: 15px 20px;
 }
 
 .section-informacion p {
   font-size: 20px;
+  overflow: hidden;
   text-wrap: pretty;
   padding: 0 15px;
 }
