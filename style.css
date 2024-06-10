@@ -601,13 +601,35 @@ body {
 
   .section-nav {
     width: 100vw;
+    height: 90px;
+    position: fixed;
+    z-index: 50;
+    bottom: 0;
+
+
+  }
+
+  .nav-conteiner{
+    position: fixed;
   }
 
   .nav-icon-page{
     display: none;
   }
 
- 
+  .nav-list{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-list a{
+    overflow: hidden;
+  }
+
+ .contenedor-whatsapp{
+  bottom: 100px;
+ }
 
   .conteiner-video-header {
     width: 100%;
@@ -679,6 +701,8 @@ body {
   .contenedor-mapa iframe{
     width: 100%;
   }
+
+ 
 
 
 }
