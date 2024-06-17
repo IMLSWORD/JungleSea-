@@ -594,36 +594,70 @@ body {
   width: 40px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
+
+  *{
+   
+  }
+  .section-nav{
+    width: 100%;
+    align-items: center;
+   justify-content: center;
+   position: fixed;
+   z-index: 5;
+   bottom: 0;
+   padding: 0;
+   margin: 0;
+  }
+
+  .wwhatsapp-icon-conteiner, .contenedor-whatsapp{
+    right: 15px;
+    bottom: 70px;
+  }
+
   .nav-icon-page{
     display: none;
   }
 
+  .title-video-header{
+    font-size: 40px;
+  }
+
   .planes-seccion{
     width: 100vw;
+    height: auto;
 
     & .planes-contenedor{
-      width: 100vw;
+      width:100vw;
+      height: auto;
+
+      & :hover{
+        scale: 100%;
+      }
     }
   }
 
   .elemento-planes{
-    width: 100%;
+    width: 100vw;
 
     & .titulo-planes{
-      width: 100vw;
+      width: auto;
     }
 
     & .parrafo-planes{
-      width: 100vw;
+      width: auto;
     }
   }
   
  .seccion-ubicacion{
   width: 100%;
+  margin: 0;
+  padding: 0;
 
   & .contenedor-mapa{
     width: 100vw;
+    margin: 0;
+    padding: 0;
   }
 
   & iframe{
@@ -631,17 +665,27 @@ body {
   }
  }
 
- .seccion-videos, .seccion-videos video{
-  width: 100vw;
-  
+ .seccion-videos{
+  width: auto;
+  height: 100%;  
+  box-sizing: border-box;
+ }
+
+ .video-exp{
+  width: auto;
+  height: 250px;
+  object-fit: cover;
  }
 
  .contenedor-servicios{
   width: 100vw;
   height: 550px;
   padding: 0;
-  margin: 20px 0;
+  margin: 0 ;
  }
 
+.section-footer{
+  height: 400px;
+}
 
 }
