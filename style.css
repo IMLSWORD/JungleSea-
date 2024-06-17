@@ -106,9 +106,10 @@ body {
 }
 
 .title-video-header {
+  padding: 15px;
   font-weight: 700;
   font-size: 100px;
-  background: linear-gradient(to left, #9cfc97, #ffffff);
+  background: linear-gradient(to left, #539253, #00ff00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -122,7 +123,7 @@ body {
   text-align: center;
   text-wrap: balance;
   font-size: 20px;
-  color: var(--white-color);
+  color: white;
 }
 
 .botones-video-header {
@@ -135,7 +136,7 @@ body {
   width: 100px;
   padding: 10px;
   font-size: 15px;
-  background-color: #5aa52095;
+  background-color: #00000095;
   border-radius: 10px;
   color: #ffffff;
   border: none;
@@ -147,7 +148,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   font-size: 15px;
-  background-color: #ebffdd88;
+  background-color: #00000088;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -596,9 +597,6 @@ body {
 
 @media (max-width: 640px) {
 
-  *{
-   
-  }
   .section-nav{
     width: 100%;
     align-items: center;
@@ -608,6 +606,7 @@ body {
    bottom: 0;
    padding: 0;
    margin: 0;
+   border-radius: 15px 15px 0 0;
   }
 
   .wwhatsapp-icon-conteiner, .contenedor-whatsapp{
@@ -621,6 +620,13 @@ body {
 
   .title-video-header{
     font-size: 40px;
+  }
+
+  .contenedor-donde-ir{
+    width: 100%;
+  }
+  .contenedor-donde-ir:hover{
+    scale: 100%;
   }
 
   .planes-seccion{
@@ -685,7 +691,7 @@ body {
  }
 
 .section-footer{
-  height: 400px;
+  height: 250px;
 }
 
 }
