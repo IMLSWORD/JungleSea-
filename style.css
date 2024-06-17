@@ -448,13 +448,14 @@ body {
 
 .contenedor-donde-ir {
   width: 250px;
-  height: auto;
+  height: 100%;
   display: block;
   background-color: #000000;
   padding: 5px;
   color: white;
   border: 2px solid var(--dark-green);
   border-radius: 0 15px 0 15px;
+  text-decoration: none;
 }
 
 .contenedor-donde-ir:hover {
@@ -475,6 +476,17 @@ body {
 .parrafo-donde-ir {
   font-size: 15px;
   padding: 5px;
+}
+
+.contenedor-donde-ir button{
+  color: var(--light-green-color);
+  background-color: var(--dark-green);
+  border: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding: 15px 0;
+  margin: 15px 0 0 0; 
 }
 
 /* servicios */
