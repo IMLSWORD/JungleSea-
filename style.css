@@ -380,14 +380,13 @@ body {
 /* ubicacion */
 
 .seccion-ubicacion {
-  display: block;
+  display: flex;
   box-sizing: border-box;
   flex-direction: column;
   align-items: center;
-  width: auto;
+  max-width: 1440px;
   height: auto;
   border-radius: 15px;
-  background-color: var(--white-color);
   align-content: center;
 }
 
@@ -395,26 +394,27 @@ body {
   font-size: 50px;
   text-align: center;
   color: var(--dark-green);
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .seccion-ubicacion p {
   font-size: 20px;
   color: var(--dark-green);
-  padding: 15px;
+  padding: 15px 0;
   text-align: center;
 }
 
 .seccion-ubicacion .contenedor-mapa {
-  width: 1440px;
-  height: auto;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: 800px;
   box-sizing: border-box;
 }
 
 .contenedor-mapa iframe {
-  width: 1440px;
-  padding: 15px;
-  height: 600px;
+  width: 50vw;
+  height: 100%;
   box-sizing: border-box;
 }
 
@@ -541,7 +541,7 @@ body {
 /* seccion videos */
 
 .seccion-videos {
-  width: 1440px;
+  max-width: 1440px;
   height: auto;
   align-items: center;
   display: flex;
@@ -688,17 +688,20 @@ body {
   
  .seccion-ubicacion{
   width: 100%;
+  height: auto;
   margin: 0;
   padding: 0;
 
   & .contenedor-mapa{
-    width: 100vw;
+    width: 100%;
+    height: 500px;
     margin: 0;
     padding: 0;
   }
 
   & iframe{
-    width: 100vw;
+    width: 100%;
+    height: 400px;
   }
  }
 
