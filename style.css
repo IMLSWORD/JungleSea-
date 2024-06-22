@@ -255,9 +255,9 @@ body {
 .contenedor-informacion {
   width: auto;
   height: auto;
-  padding: 0;
+  padding: 20px;
   margin: 40px 0;
-  text-align: center;
+  text-align: start;
   text-wrap: stable;
 }
 
@@ -265,7 +265,7 @@ body {
 .section-informacion h3 {
   font-size: 40px;
   font-weight: 700;
-  text-align: center;
+  text-align: start;
   overflow: hidden;
   color: var(--dark-green);
 }
@@ -273,7 +273,7 @@ body {
 .section-informacion p {
   font-size: 15px;
   text-wrap: stable;
-  text-align: center;
+  text-align: start;
 }
 
 /* background */
@@ -394,7 +394,7 @@ body {
   font-size: 50px;
   text-align: center;
   color: var(--dark-green);
-  padding: 15px 0;
+ 
 }
 
 .seccion-ubicacion p {
@@ -424,15 +424,16 @@ body {
   font-size: 40px;
   color: var(--dark-green);
   padding: 15px;
-  text-align: center;
+  text-align: start;
   margin-top: 40px;
 }
 
 .div-titulo-ir .titulo-donde-ir-head + p {
-  text-align: center;
+  text-align: start;
   font-size: 20px;
+  padding: 10px;
+  margin-bottom: 40px;
   color: var(--dark-green);
-  padding: 40px;
   text-align: center;
 }
 
@@ -447,7 +448,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 40px;
   box-sizing: border-box;
 }
 
@@ -455,27 +456,31 @@ body {
   width: 250px;
   height: 100%;
   display: block;
-  background-color: #000000;
-  padding: 5px;
+  background: rgb(37,195,2);
+  background: linear-gradient(27deg, rgba(37,195,2,1) 0%, rgba(14,57,22,1) 100%);
+  padding: 10px;
   color: white;
-  border: 2px solid var(--dark-green);
-  border-radius: 0 15px 0 15px;
   text-decoration: none;
+  transition: 300ms ease;
 }
 
 .contenedor-donde-ir:hover {
-  scale: 105%;
+  scale: 103%;
+  background: rgb(37,195,2);
+background: linear-gradient(295deg, rgba(37,195,2,1) 0%, rgba(3,129,25,1) 100%);
 }
 
 .contenedor-donde-ir img {
   width: 100%;
+  border-radius: 1em;
   object-fit: cover;
 }
 
 .titulo-donde-ir {
   font-size: 25px;
-  color: var(--light-green-color);
+  font-weight: 600;
   padding: 15px;
+  text-wrap: wrap;
 }
 
 .parrafo-donde-ir {
@@ -484,14 +489,19 @@ body {
 }
 
 .contenedor-donde-ir button{
-  color: var(--light-green-color);
+  color: var(--white-color);
   background-color: var(--dark-green);
   border: none;
-  width: 100%;
+  width: 40%;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 15px 0;
   margin: 15px 0 0 0; 
+
+  &:hover{
+    background-color: var(--light-green-color);
+    color: var(--dark-green);
+  }
 }
 
 /* servicios */
@@ -507,7 +517,7 @@ body {
 
 .titulo-servicios {
   padding-top: 80px;
-  text-align: center;
+  text-align: start;
   font-size: 40px;
   color: var(--dark-green);
 }
