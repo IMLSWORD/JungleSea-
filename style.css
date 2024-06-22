@@ -400,7 +400,6 @@ body {
 .seccion-ubicacion p {
   font-size: 20px;
   color: var(--dark-green);
-  padding: 15px 0;
   text-align: start;
 }
 
