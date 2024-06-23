@@ -300,21 +300,37 @@ body {
 
 
 /* imagenes slider */
+.titulos-imaegens{
+  margin: 15px;
+  
+  & h1{
+    font-size: 50px;
+    text-align: center;
+    color: var(--dark-green);
+    text-align: center;
+    overflow: hidden;
+  }
+
+  & p{
+   color: var(--medium-green-color);
+    text-align: center;
+  }
+}
+
 .seccion-imagenes{
  width: auto;
  height: auto;
- background-color: var(--light-green-color);
 display: flex;
 justify-content: center;
 box-sizing: border-box;
 
 & .contenedor-imagenes{
-  width: 100%;
+  width: 1000px;
   height: 500px;
   display: flex;
-  background-color: var(--dark-green);
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+  gap: 20px;
 }
 
   & .elemento-imagenes{
