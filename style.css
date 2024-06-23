@@ -197,6 +197,28 @@ body {
   padding: 40px;
   border: 1px solid var(--light-green-color);
   cursor: pointer;
+
+  & .lista-beneficios{
+    padding: 20px;
+  }
+
+  & .elementos-beneficios{
+    font-size: 20px;
+    text-align: start;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content:center ;
+    align-self: center;
+
+    &.elementos-beneficios::before{
+      content: "-";
+      font-size: 40px;
+      font-weight: bold;
+      color: var(--medium-green-color);
+    }
+  }
+
 }
 
 .elemento-planes:hover{
@@ -216,7 +238,7 @@ body {
 }
 
 .elemento-planes p{
-  font-size: 15px;
+  font-size: 20px;
   overflow: hidden;
 }
 
