@@ -676,6 +676,10 @@ box-sizing: border-box;
    border-radius: 15px 15px 0 0;
   }
 
+  .title-video-header img {
+    width: 20px;
+  }
+
   .list-nav-elements{
     width: 100%;
     display: flex;
