@@ -779,7 +779,7 @@ box-sizing: border-box;
 
  .contenedor-servicios{
   width: 100vw;
-  height: auto;
+  height: 800PX;
   padding: 0;
   margin: 0 ;
  }
