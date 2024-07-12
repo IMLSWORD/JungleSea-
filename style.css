@@ -8,11 +8,11 @@
   --medium-green-color: #a27a52;
   --opact-green: #243124;
   --dark-green: #030300;
- --font: "Nunito Sans", sans-serif;
+  --font: "Nunito Sans", sans-serif;
   font-weight: 400;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
+
 }
 
 body {
@@ -20,10 +20,11 @@ body {
   background-color: white;
 }
 
-.div-nav{
+.div-nav {
   display: flex;
   justify-content: center;
 }
+
 .section-nav {
   width: 800px;
   display: flex;
@@ -62,7 +63,8 @@ body {
   gap: 15px;
   justify-content: center;
 }
-.list-nav-elements{
+
+.list-nav-elements {
   display: flex;
   gap: 5px;
   align-items: center;
@@ -76,11 +78,12 @@ body {
   text-decoration: none;
 }
 
-.nav-list img{
+.nav-list img {
   width: 20px;
 
   filter: invert(88%) sepia(10%) saturate(374%) hue-rotate(22deg) brightness(101%) contrast(83%);
 }
+
 .nav-list a:hover {
   text-decoration: underline;
   color: var(--light-green-color);
@@ -99,7 +102,7 @@ body {
 .video-header {
   position: static;
   width: 100%;
-  height: 400px;
+  height: 700px;
   border-radius: 0 0 15px 15px;
   object-fit: cover;
   z-index: -10;
@@ -195,15 +198,15 @@ body {
 
 /* planes  */
 
-.planes-seccion{
+.planes-seccion {
   width: 100%;
   height: auto;
   display: block;
   align-content: center;
-  }
+}
 
-.planes-contenedor{
-  width:100%;
+.planes-contenedor {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -212,7 +215,7 @@ body {
   box-sizing: border-box;
 }
 
-.elemento-planes{
+.elemento-planes {
   width: 300px;
   text-align: center;
   height: auto;
@@ -223,20 +226,20 @@ body {
   border: 1px solid var(--light-green-color);
   cursor: pointer;
 
-  & .lista-beneficios{
+  & .lista-beneficios {
     padding: 20px;
   }
 
-  & .elementos-beneficios{
+  & .elementos-beneficios {
     font-size: 20px;
     text-align: start;
     display: flex;
     gap: 5px;
     align-items: center;
-    align-content:center ;
+    align-content: center;
     align-self: center;
 
-    &.elementos-beneficios::before{
+    &.elementos-beneficios::before {
       content: "-";
       font-size: 40px;
       font-weight: bold;
@@ -246,42 +249,42 @@ body {
 
 }
 
-.elemento-planes:hover{
+.elemento-planes:hover {
   scale: 102%;
   background-color: var(--white-color);
 
-  & h1{
+  & h1 {
     color: var(--dark-green);
   }
 }
 
-.elemento-planes h1{
+.elemento-planes h1 {
   font-size: 50px;
   font-weight: 800;
   overflow: hidden;
   color: var(--medium-green-color);
 }
 
-.elemento-planes p{
+.elemento-planes p {
   font-size: 20px;
   overflow: hidden;
 }
 
-.seccion-compra{
+.seccion-compra {
   display: flex;
   padding: 2px;
   flex-direction: column;
- justify-content: center;
- align-items: center;
- border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
 }
 
-.elemento-planes img{
+.elemento-planes img {
   width: 75px;
   padding: 20px;
 }
 
-.seccion-compra button{
+.seccion-compra button {
   width: 200px;
   height: 50px;
   font-size: 20px;
@@ -290,14 +293,14 @@ body {
   border-radius: 15px;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     background-color: var(--light-green-color);
     color: var(--dark-green);
     border: var(--light-green-color);
   }
 }
 
-.seccion-compra p{
+.seccion-compra p {
   font-size: 35px;
   font-weight: 800;
 }
@@ -340,10 +343,10 @@ body {
 
 
 /* imagenes slider */
-.titulos-imaegens{
+.titulos-imaegens {
   margin: 15px;
-  
-  & h1{
+
+  & h1 {
     font-size: 50px;
     text-align: center;
     color: var(--dark-green);
@@ -351,29 +354,29 @@ body {
     overflow: hidden;
   }
 
-  & p{
-   color: var(--medium-green-color);
+  & p {
+    color: var(--medium-green-color);
     text-align: center;
   }
 }
 
-.seccion-imagenes{
- width: auto;
- height: auto;
-display: flex;
-justify-content: center;
-box-sizing: border-box;
-
-& .contenedor-imagenes{
-  width: 1000px;
-  height: 500px;
+.seccion-imagenes {
+  width: auto;
+  height: auto;
   display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  gap: 20px;
-}
+  justify-content: center;
+  box-sizing: border-box;
 
-  & .elemento-imagenes{
+  & .contenedor-imagenes {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+  }
+
+  & .elemento-imagenes {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -401,7 +404,7 @@ box-sizing: border-box;
   font-size: 50px;
   text-align: center;
   color: var(--dark-green);
- 
+
 }
 
 .seccion-ubicacion p {
@@ -434,7 +437,7 @@ box-sizing: border-box;
   margin-top: 40px;
 }
 
-.div-titulo-ir .titulo-donde-ir-head + p {
+.div-titulo-ir .titulo-donde-ir-head+p {
   text-align: start;
   font-size: 20px;
   padding: 10px;
@@ -461,24 +464,33 @@ box-sizing: border-box;
 }
 
 .contenedor-donde-ir {
-  width: 200px;
+  width: 300px;
   height: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #b8b8b8;
+  background: #eeeeee;
   padding: 0;
   color: white;
   text-decoration: none;
   transition: 300ms ease;
-  border-radius:15px;
+  border-radius: 15px;
 }
 
 .contenedor-donde-ir:hover {
   scale: 103%;
-  background: #535353;
+  background: #3e4742;
   color: #ffffff;
+
+  & .titulo-donde-ir {
+    color: var(--white-color);
+  }
+
+  & .parrafo-donde-ir{
+    color: var(--white-color);
+  }
 
 }
 
@@ -499,9 +511,10 @@ box-sizing: border-box;
 .parrafo-donde-ir {
   font-size: 15px;
   padding: 0 15px;
+  color: #000000;
 }
 
-.contenedor-donde-ir button{
+.contenedor-donde-ir button {
   color: var(--white-color);
   background-color: var(--dark-green);
   border: none;
@@ -509,14 +522,14 @@ box-sizing: border-box;
   height: 40px;
   font-size: 20PX;
   border-radius: 5px;
-  margin: 15px 0 0 0; 
+  margin: 15px 0 0 0;
 
-  &:hover{
+  &:hover {
     background-color: var(--white-color);
     color: var(--dark-green);
   }
 
- 
+
 }
 
 /* servicios */
@@ -563,10 +576,11 @@ box-sizing: border-box;
   padding: 20px;
 }
 
-.servicios p{
+.servicios p {
   font-size: 15px;
   font-weight: 200px;
 }
+
 /* seccion videos */
 
 .seccion-videos {
@@ -582,13 +596,13 @@ box-sizing: border-box;
 }
 
 /* whatsapp */
-.wwhatsapp-icon-conteiner{
+.wwhatsapp-icon-conteiner {
   position: fixed;
-  
+
 
 }
 
-.contenedor-whatsapp{
+.contenedor-whatsapp {
   width: 50px;
   position: fixed;
   top: 1;
@@ -625,18 +639,18 @@ box-sizing: border-box;
   justify-content: space-between;
   color: var(--white-color);
 
-  & a{
+  & a {
     color: var(--white-color);
     font-size: 15PX;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
 }
 
-.contenedor-redes-footer{
+.contenedor-redes-footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -660,132 +674,135 @@ box-sizing: border-box;
 
 @media (max-width: 576px) {
 
-  .nav-conteiner{
+  .nav-conteiner {
     width: 100%;
   }
 
-  .section-nav{
+  .section-nav {
     width: auto;
     align-items: center;
-   justify-content: center;
-   position: fixed;
-   z-index: 5;
-   bottom: 0;
-   padding: 0;
-   margin: 0;
-   border-radius: 15px 15px 0 0;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px 15px 0 0;
   }
 
   .title-video-header img {
     width: 20px;
   }
 
-  .list-nav-elements{
+  .list-nav-elements {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
   }
-  .wwhatsapp-icon-conteiner, .contenedor-whatsapp{
+
+  .wwhatsapp-icon-conteiner,
+  .contenedor-whatsapp {
     right: 15px;
     bottom: 70px;
   }
 
-  .nav-icon-page{
+  .nav-icon-page {
     display: none;
   }
 
-  .title-video-header{
+  .title-video-header {
     font-size: 40px;
   }
 
-  .contenedor-donde-ir{
+  .contenedor-donde-ir {
     width: 100%;
   }
-  .contenedor-donde-ir:hover{
+
+  .contenedor-donde-ir:hover {
     scale: 100%;
   }
 
-  .planes-seccion{
+  .planes-seccion {
     width: 100vw;
     height: auto;
 
-    & .planes-contenedor{
-      width:100vw;
+    & .planes-contenedor {
+      width: 100vw;
       height: auto;
 
-      & :hover{
+      & :hover {
         scale: 100%;
       }
     }
   }
 
-  .elemento-planes{
+  .elemento-planes {
     width: 100vw;
 
-    & .titulo-planes{
+    & .titulo-planes {
       width: auto;
     }
 
-    & .parrafo-planes{
+    & .parrafo-planes {
       width: auto;
     }
   }
 
-  .section-informacion{
+  .section-informacion {
     width: 100%;
     margin: 0;
     padding: 10px;
     text-align: start;
-    
 
-    & p{
+
+    & p {
       padding: 15px;
       margin: 0;
     }
   }
-  
- .seccion-ubicacion{
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
 
-  & .contenedor-mapa{
+  .seccion-ubicacion {
     width: 100%;
-    height: 500px;
+    height: auto;
     margin: 0;
     padding: 0;
+
+    & .contenedor-mapa {
+      width: 100%;
+      height: 500px;
+      margin: 0;
+      padding: 0;
+    }
+
+    & iframe {
+      width: 100%;
+      height: 400px;
+    }
   }
 
-  & iframe{
-    width: 100%;
-    height: 400px;
-  }
- }
+  .seccion-videos {
+    width: auto;
+    height: 200px;
+    box-sizing: border-box;
 
- .seccion-videos{
-  width: auto;
-  height: 200px;  
-  box-sizing: border-box;
-
-    & .video-exp{
+    & .video-exp {
       width: 100%;
       height: 100%;
       object-fit: cover;
-     }
- }
+    }
+  }
 
- .contenedor-servicios{
-  width: 100vw;
-  height: 800PX;
-  padding: 0;
-  margin: 0 ;
- }
+  .contenedor-servicios {
+    width: 100vw;
+    height: 800PX;
+    padding: 0;
+    margin: 0;
+  }
 
-.section-footer{
-  height: 250px;
-}
+  .section-footer {
+    height: 250px;
+  }
 
 }
