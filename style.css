@@ -665,7 +665,7 @@ box-sizing: border-box;
   }
 
   .section-nav{
-    width: 100%;
+    width: auto;
     align-items: center;
    justify-content: center;
    position: fixed;
@@ -676,6 +676,13 @@ box-sizing: border-box;
    border-radius: 15px 15px 0 0;
   }
 
+  .list-nav-elements{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
   .wwhatsapp-icon-conteiner, .contenedor-whatsapp{
     right: 15px;
     bottom: 70px;
