@@ -633,6 +633,9 @@ body {
   bottom: 100px;
   z-index: 55;
   padding: 10px;
+  background-color: #0000003a;
+  backdrop-filter: blur(0.90rem);
+  border-radius: 50px;
 }
 
 .contenedor-arriba:hover{
