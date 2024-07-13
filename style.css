@@ -740,6 +740,12 @@ body {
     bottom: 70px;
   }
 
+   .flecha-icon-conteiner,
+  .contenedor-arriba {
+    right: 15px;
+    bottom: 100px;
+  }
+
   .nav-icon-page {
     display: none;
   }
