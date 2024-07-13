@@ -626,17 +626,13 @@ body {
 }
 
 .contenedor-arriba{
-  width: 40px;
+  width: 50px;
   position: fixed;
   top: 1;
   right: 0;
   bottom: 100px;
   z-index: 55;
   padding: 10px;
-  background-color: var(--white-color);
-  border-radius: 50px;
-
-  
 }
 
 .contenedor-arriba:hover{
@@ -743,7 +739,7 @@ body {
    .flecha-icon-conteiner,
   .contenedor-arriba {
     right: 15px;
-    bottom: 200px;
+    bottom: 150px;
   }
 
   .nav-icon-page {
