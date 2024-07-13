@@ -117,7 +117,7 @@ body {
 }
 
 .title-container {
-  width: 50%;
+  width: 50VW;
   max-width: 100%;
   height: auto;
   display: flex;
