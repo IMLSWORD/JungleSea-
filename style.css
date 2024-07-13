@@ -626,7 +626,7 @@ body {
 }
 
 .contenedor-arriba{
-  width: 50px;
+  width: 40px;
   position: fixed;
   top: 1;
   right: 0;
@@ -743,7 +743,7 @@ body {
    .flecha-icon-conteiner,
   .contenedor-arriba {
     right: 15px;
-    bottom: 100px;
+    bottom: 200px;
   }
 
   .nav-icon-page {
