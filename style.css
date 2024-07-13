@@ -639,7 +639,10 @@ body {
 }
 
 .contenedor-arriba:hover{
-  background-color: var(--medium-green-color);
+  background-color: #0000007a;
+  backdrop-filter: blur(2rem);
+
+  
 }
 
 .contenedor-arriba img{
