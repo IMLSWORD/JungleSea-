@@ -754,9 +754,15 @@ background: linear-gradient(1deg, rgb(128, 94, 31) 3%, rgb(146, 73, 25) 100%);
     border-radius: 15px 15px 0 0;
   }
 
+  .conteinner-video-section{
+    width: auto;
+    height: 600PX;
+  }
+  
+
   .video-header{
     width: 100vw;
-    height: 400PX;
+    height: auto;
   }
 
   .title-video-header img {
