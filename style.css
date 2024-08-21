@@ -17,8 +17,8 @@
 
 body {
   font-family: var(--font);
-  background: rgb(146,170,54);
-  background: linear-gradient(345deg, rgba(146,170,54,1) 0%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 61%, rgba(101,123,40,1) 100%);
+  background: rgb(255, 140, 0);
+  background: linear-gradient(345deg, rgb(255, 115, 0) 0%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 61%, rgb(128, 77, 43) 100%);
 }
 
 .div-nav {
@@ -102,8 +102,8 @@ body {
 
 .video-header {
   position: static;
-  width: 100%;
-  height: 700px;
+  width: 100vw;
+  height: 800px;
   border-radius: 0 0 15px 15px;
   object-fit: cover;
   z-index: -10;
@@ -125,8 +125,7 @@ body {
   position: absolute;
   left: 0;
   right: 0;
-  background-color: #00000038;
-  backdrop-filter: blur(0.90rem);
+
   border-radius: 100px;
   bottom: unset;
   top: 150px;
@@ -150,12 +149,13 @@ body {
 }
 
 .parraf-video-header {
+  width: 400px;
   padding: 5px;
   text-align: center;
   text-wrap: balance;
   font-size: 20px;
-  font-weight: 400;
-  color: var(--white-color);
+  font-weight: 800;
+  color: white;
   font-family: var(--font);
 }
 
@@ -208,6 +208,9 @@ body {
   height: auto;
   display: block;
   align-content: center;
+  background-image: url(./assets/products/concepto-material-madera-textura-papel-pintado-fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .planes-contenedor {
@@ -226,7 +229,7 @@ body {
   width: 300px;
   text-align: center;
   height: auto;
-  color: var(--opact-green);
+  color: white;
   font-size: 40px;
   text-decoration: none;
   padding: 5px;
@@ -263,7 +266,7 @@ body {
   scale: 102%;
   transform: rotate(1deg);
   background: rgb(146,170,54);
-background: linear-gradient(1deg, rgba(146,170,54,1) 3%, rgba(60,85,27,1) 100%);
+background: linear-gradient(1deg, rgb(128, 94, 31) 3%, rgb(146, 73, 25) 100%);
 
   & h1, p, .elementos-beneficios{
     color: #ffffff;
