@@ -136,7 +136,7 @@ body {
 
 .slider-frame img {
   width: 100vw;
-  height: 800px;
+  height: 600px;
   object-fit: cover;
 }
 
@@ -435,6 +435,7 @@ body {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     gap: 20px;
+
   }
 
   & .elemento-imagenes {
