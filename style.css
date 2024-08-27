@@ -151,7 +151,7 @@ body {
   70% {margin-left: -200%;}
 
   75% {margin-left: -300%;}
-  95% {margin-left: -300%;}
+  100% {margin-left: -300%;}
 }
 
 .conteinner-video-section {
@@ -251,7 +251,7 @@ body {
   height: auto;
   display: block;
   align-content: center;
-  background-image: url(./assets/products/concepto-material-madera-textura-papel-pintado-fondo.jpg);
+  background-image: url(./assets/icons/pared-piso-madera.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -284,6 +284,7 @@ body {
 
   & .lista-beneficios {
     padding: 20px;
+    font-weight: 700;
   }
 
   & .elementos-beneficios {
@@ -314,6 +315,7 @@ body {
   p,
   .elementos-beneficios {
     color: #ffffff;
+
   }
 }
 
