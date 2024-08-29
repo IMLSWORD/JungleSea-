@@ -382,9 +382,9 @@ body {
 }
 
 .contenedor-informacion {
-  width: 50%;
+  width: 80%;
   height: auto;
-  padding: 20px;
+  padding: 0;
   margin: 40px 0;
   text-align: start;
   text-wrap: stable;
@@ -407,18 +407,20 @@ body {
 
 /* imagenes slider */
 .titulos-imaegens {
-  margin: 15px;
+  margin: 40px auto;
 
   & h1 {
     font-size: 50px;
     text-align: center;
-    color: var(--dark-green);
+    color: white;
     text-align: center;
     overflow: hidden;
   }
 
   & p {
-    color: var(--medium-green-color);
+    color: white;
+    font-size: 15px;
+    margin: 15px;
     text-align: center;
   }
 }
