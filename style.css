@@ -926,6 +926,7 @@ body {
   }
 
   .section-footer {
+    margin-top: 40PX;
     height: 400px;
   }
 }
