@@ -214,7 +214,8 @@ body {
   width: 100px;
   padding: 10px;
   font-size: 20px;
-  background-color: var(--dark-green);
+  background-color: #0000004d;
+backdrop-filter: blur(0.90rem);
   border-radius: 10px;
   color: #ffffff;
   border: none;
@@ -227,7 +228,8 @@ body {
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
-  background-color: var(--dark-green);
+  background-color: #0000004d;
+  backdrop-filter: blur(0.90rem);
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -242,8 +244,8 @@ body {
 .button1-video-header:hover,
 .button2-video-header:hover {
   scale: 120%;
-  background-color: var(--white-color);
-  color: var(--dark-green);
+  background-color: var(--opact-green);
+  color:white;
 }
 
 /* planes  */
@@ -280,8 +282,8 @@ body {
   padding: 5px;
   box-shadow: 10px 10px 20px #25371175;
   cursor: pointer;
-  background-color: #ffffff33;
-  backdrop-filter: blur(0.9rem);
+  background-color: #ffffff07;
+  backdrop-filter: blur(0.90rem);
   border-radius: 15px;
 
   & .lista-beneficios {
@@ -351,10 +353,12 @@ body {
   width: 200px;
   height: 50px;
   font-size: 20px;
-  background-color: var(--dark-green);
+  margin: 15px;
+  background-color: #aaaaaa36;
   color: white;
   border-radius: 15px;
   cursor: pointer;
+  border: none;
 
   &:hover {
     background-color: var(--light-green-color);
