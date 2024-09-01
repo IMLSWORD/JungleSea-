@@ -255,7 +255,7 @@ backdrop-filter: blur(0.90rem);
   height: auto;
   display: block;
   align-content: center;
-  background-image: url(./assets/icons/pared-piso-madera.jpg);
+  background-image: url(./assets/icons/textmadera.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -280,7 +280,6 @@ backdrop-filter: blur(0.90rem);
   font-size: 40px;
   text-decoration: none;
   padding: 5px;
-  box-shadow: 10px 10px 20px #25371175;
   cursor: pointer;
   background-color: #ffffff07;
   backdrop-filter: blur(0.90rem);
@@ -312,8 +311,8 @@ backdrop-filter: blur(0.90rem);
 .elemento-planes:hover {
   scale: 102%;
   transform: rotate(1deg);
-  background: rgb(146, 170, 54);
-  background: linear-gradient(1deg, rgb(128, 94, 31) 3%, rgb(146, 73, 25) 100%);
+  background: rgb(255, 166, 0);
+  background: linear-gradient(2deg, rgb(46, 30, 0) 1%, rgb(112, 45, 0) 50%);
 
   & h1,
   p,
@@ -363,7 +362,6 @@ backdrop-filter: blur(0.90rem);
   &:hover {
     background-color: var(--light-green-color);
     color: var(--dark-green);
-    border: var(--light-green-color);
   }
 }
 
@@ -392,6 +390,20 @@ backdrop-filter: blur(0.90rem);
   margin: 40px 0;
   text-align: start;
   text-wrap: stable;
+  justify-content: center;
+  align-items: center;
+  display: flex;  
+  flex-direction: column;
+
+  & img{
+    width: 500px;
+    height: auto;
+    padding: 15px ;
+    border-radius: 15px;
+    display: flex;
+  }
+
+    
 }
 
 .section-informacion h2,
@@ -407,6 +419,7 @@ backdrop-filter: blur(0.90rem);
   font-size: 15px;
   text-wrap: stable;
   text-align: start;
+  padding-bottom: 15px;
 }
 
 /* imagenes slider */
@@ -495,6 +508,32 @@ backdrop-filter: blur(0.90rem);
   width: 50vw;
   height: 100%;
   box-sizing: border-box;
+}
+
+
+.section-refugio-manzanillo{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 3rem;
+
+  & h1{
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 15px;
+
+  }
+
+}
+
+.container-info-refugio{
+  padding: 20px;
+
+  & p{
+    text-wrap: balance;
+  }
 }
 
 /* seccion-donde-ir */
