@@ -1007,6 +1007,11 @@ backdrop-filter: blur(0.90rem);
   .container-info-refugio{
     width: 100%;
     padding: 0;
+    margin: 15PX;
+
+    & P{
+      font-size: 15px;
+    }
   }
 
   .section-refugio-manzanillo{
