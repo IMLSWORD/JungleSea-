@@ -400,7 +400,7 @@ backdrop-filter: blur(0.90rem);
   flex-direction: column;
 
   & img{
-    width: 500px;
+    width: 100%;
     height: auto;
     padding: 15px ;
     border-radius: 15px;
@@ -524,7 +524,7 @@ backdrop-filter: blur(0.90rem);
   padding: 3rem;
 
   & h1{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 500;
     padding-bottom: 15px;
 
