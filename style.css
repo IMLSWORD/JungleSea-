@@ -1004,26 +1004,31 @@ backdrop-filter: blur(0.90rem);
     }
   }
 
-  .container-info-refugio{
-    width: 100%;
-    padding: 0;
-    margin: 15PX;
-
-    & P{
-      font-size: 10px;
-    }
-  }
+  
 
   .section-refugio-manzanillo{
     width: 100%;
     flex-wrap: wrap;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    text-align: cent+er;
+    padding: 3em 0;
+    background-color: #f1fdc0;
+    margin: 2em 0;
+
 
 
     & iframe{
       width: 100%;
+    }
+  }
+
+  .container-info-refugio{
+    width: 100%;
+    padding: 0;
+    margin: 15PX;
+  
+
+    & P{
+      font-size: 10px;
     }
   }
 
