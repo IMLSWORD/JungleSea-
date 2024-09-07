@@ -533,6 +533,7 @@ backdrop-filter: blur(0.90rem);
 
   & iframe{
     width: 100o;
+    padding: 0;
   }
 
 }
