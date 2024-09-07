@@ -78,7 +78,7 @@ body {
 
 }
 audio{
-  width: 100px;
+  width: 260px;
   filter: opacity(50%);
   color: var(--light-green-color);
 }
