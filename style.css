@@ -74,7 +74,16 @@ body {
   align-items: center;
   align-self: center;
   align-content: center;
+
+
 }
+audio{
+  width: 100px;
+  filter: opacity(50%);
+  color: var(--light-green-color);
+}
+
+
 
 .nav-list a {
   color: #ffffff;
@@ -135,7 +144,7 @@ body {
   align-content: center;
 }
 
-.slider-frame img {
+.slider-frame img, .slider-frame video {
   width: 100vw;
   height: 600px;
   object-fit: cover;
@@ -192,7 +201,7 @@ body {
   color: #ffffff;
 }
 
-.title-video-header img {
+.title-video-header img{
   width: 100px;
 }
 
@@ -250,6 +259,21 @@ backdrop-filter: blur(0.90rem);
   scale: 120%;
   background-color: var(--opact-green);
   color:white;
+}
+
+
+.seccion-video-playa{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+
+  & video{
+    width: 600px;
+    height: auto;
+  }
 }
 
 /* planes  */
