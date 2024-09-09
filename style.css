@@ -146,7 +146,7 @@ audio{
 
 .slider-frame img, .slider-frame video {
   width: 100vw;
-  height: 600px;
+  height: 800px;
   object-fit: cover;
 }
 
