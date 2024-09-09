@@ -906,7 +906,7 @@ backdrop-filter: blur(0.90rem);
 
 .slider-frame-mobile img {
   width: 100vw;
-  height: 600px;
+  height: 800px;
   object-fit: cover;
 }
 
