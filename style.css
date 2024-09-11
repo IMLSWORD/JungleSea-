@@ -16,13 +16,13 @@
 
 body {
   font-family: var(--font);
-  background: rgb(255, 140, 0);
-  background: linear-gradient(345deg,
+  background: rgb(255, 255, 255);
+  background: linear-gradient(300deg,
       #cbffc4 0%,
       rgba(255, 255, 255, 1) 32%,
       rgba(255, 255, 255, 1) 50%,
       rgba(255, 255, 255, 1) 61%,
-      rgb(128, 77, 43) 100%);
+      rgb(168, 97, 3) 100%);
 }
 
 .div-nav {
